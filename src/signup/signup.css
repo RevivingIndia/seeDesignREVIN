@@ -1,0 +1,126 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    /* background: #84fab0; */
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-011.jpg");
+    /* background-position: ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5)); */
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5)) */
+    }
+
+
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none !important; 
+     margin: 0; 
+}
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    /* background: #84fab0; */
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1)); */
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1)) */
+    }
+    .btn-success{
+        color: #fff !important;
+    }
+    .logo{
+       position: absolute;
+       font-size: 4rem;
+    }
+    .bg-image{
+        overflow: hidden;
+    }
+    /* *{
+        overflow-x: hidden;
+    } */
+    .text-uppercase {
+        overflow: hidden;
+    }
+    .col-xl-6{
+        width: 40% !important;
+        margin-top: 10px;
+    }
+    /* --------------------------------------- modal styling css---------------------------------------- */
+    
+
+.modal2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+
+}
+.close-button2 {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: lightgray;
+    margin-left: auto;
+}
+.close-button2:hover {
+    background-color: darkgray;
+}
+.show-modal2 {
+    opacity: 1;
+    visibility: visible;
+    display: block !important;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.text-uppercase{
+    color: #fff !important;
+}
+.form-outline{
+    outline:none !important;
+    background: transparent;
+}
+#name,#email,#password,#confirm_password{
+    /* background: transparent; */
+    color: black !important;
+}
+::placeholder{
+    color: #fff;
+}
+
+.form-check-label{
+    color: #fff;
+}
+.text-center{
+    color: #fff !important;
+}
+.text-body{
+    color: #fff !important;
+}
+INPUT::-webkit-input-placeholder, 
+INPUT:-moz-placeholder {
+    color:red;
+}

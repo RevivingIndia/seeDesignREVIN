@@ -1,0 +1,6 @@
+.vid{
+    opacity: 0;
+} 
+.vid:hover{
+    opacity: 1;
+}

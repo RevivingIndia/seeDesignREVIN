@@ -1,0 +1,89 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+}
+.search-btn {
+    border-radius:  25px 0px 0px 25px }
+.search-container{
+    margin-bottom: auto;
+    width: 600px;
+    margin-top: 50px;
+    height: 50px;
+    background-color:white;
+    border-radius: 5px;
+    display: flex;
+}
+.search-btn{
+    width: 548px;
+    height: 100%;
+    outline: none;
+    border: none;
+}
+#file{
+    display: none;
+}
+#bg-label{
+    text-align: center;
+
+    margin-top: 2px;
+}
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000cc;
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+.up-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.drag{
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    border-style: dashed;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drag-img{
+    width: 200px;
+    height: 200px;
+    /* background-image: url("./images.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#img-upld{
+    width: inherit;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+}
+.card{
+    height: fit-content;
+}
